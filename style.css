@@ -83,15 +83,19 @@ header .header-info {
     justify-content: center;
     text-align: center;
     gap: -3px;
-    padding-bottom: 10px;
+    padding-top: 60px;
 }
 .infoimportante a {
     margin: 0px 0 0 0;
 }
 
-.infoimportante img {
-    width: 60%;
-}
+.header-info img {
+        width: 60px;
+        animation: bounce;
+         animation-duration:6s;
+    animation-iteration-count:300ms;
+    }
+
 .fecha {
     width: 100%;
     padding: auto;
@@ -400,9 +404,7 @@ footer img {
         margin: 30px 0 0 0;
        
     }
-    .infoimportante img {
-        width: 70%;
-    }
+
     .segundo {
         background-color: var(--color-terciario);
         background-image: url(./figuras/Group.png);
